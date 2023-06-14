@@ -1,0 +1,43 @@
+body {
+    /* Light mode styles */
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .app.dark-mode {
+    /* Dark mode styles */
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar {
+    /* Add styles for the navbar */
+    background-color: #fff;
+    padding: 1rem;
+    color: black;
+  }
+  
+  .navbar.dark-mode {
+    background-color: #333;
+  }
+  
+  .logo {
+    /* Add styles for the logo */
+    color: #333;
+  }
+  
+  .logo.dark-mode {
+    color: #fff;
+  }
+  
+  .theme-toggle {
+    /* Add styles for the theme toggle icon */
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .theme-toggle.dark-mode {
+    color: #fff;
+  }
+  
